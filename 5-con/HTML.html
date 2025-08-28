@@ -1,0 +1,1561 @@
+<h3 align="center"> ["5-CON"]<h3>
+        <h3 align="center"> ["Raport statistic trimestrial"]<h3>
+                <h3 align="center">["Consumurile şi cheltuielile organizaţiilor necomerciale"]</h3>
+                <p align="center"> ["în
+                    trimestrul"]@nalogPeriodType;@nalogPeriodLetter;T/@nalogPeriodQuarter;/@nalogPeriodYear;</p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Date de identificare"] </span>
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Denumirea"]:</span> @dec_fiscCod_name;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Adresa"]:</span>
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Raionul(municipiul)"]:</span>@dec_fiscCod_fisc;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Sat(comuna/sector)"]:</span>@dec_fiscCod_cuatm;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Strada"]:</span>@dec_group2_adres;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Cod CUIÎO"]:</span> @dec_fiscCod_cuio;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Cod IDNO"]:</span>@dec_fiscCod_fiscal;
+                </p>
+                <div class="webform-padding-sm webform-select2-inline">
+                    <span class="webform-bold webform-right-sm">["Forma de proprietate"]:</span>@dec_fiscCod_cfp;
+                </div>
+                <div class="webform-padding-sm webform-select2-inline">
+                    <span class="webform-bold webform-right-sm">["Forma
+                        organizatorico-juridică"]:</span>@dec_fiscCod_cfoj;
+                </div>
+                <div class="webform-padding-sm webform-select2-inline">
+                    <span class="webform-bold webform-right-sm">["Activitatea principală"]:</span>@dec_fiscCod_caem;
+                </div>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Codul fiscal"]:</span>@dec_fiscCod_codFiscal;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Conducătorul"]:</span>@dec_director_director;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Executantul"]:</span> @dec_table_row_anexeint;
+                </p>
+                <p class="webform-padding-sm">
+                    <span class="webform-bold webform-right-sm">["Telefon"]:</span>@dec_fiscCod_telefon;
+                </p>
+                </br>
+                <br>
+
+                <p>
+                <h3 align="left">
+                    <strong>["Organizația dvs. a avut activitate (a înregistrat venituri, cheltuieli) în trimestrul de
+                        raportare?"]</strong> ["Marcați cu semnul"] <span>&#10004;</span> ["rubrica următoare"]
+                </h3>
+                </p>
+                </br>
+                <p style="margin-left: 100px;">@dec_flag1; <span><strong>["Da"]</strong></span></p>
+                </br>
+                <p style="margin-left: 100px;">@dec_flag2; <span><strong>["Nu"]</strong></span></p>
+                <br>
+
+                <p align="right" style="font-style: italic;">
+                    (["mii lei; datele se înscriu cu zecimale"])
+                </p>
+                <table id="tab_con" border="1" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="264">
+                                <p align="center">
+                                    ["Denumirea indicatorilor"]
+                                </p>
+                            </td>
+                            <td width="54">
+                                <p align="center">
+                                    ["Codul"]
+                                </p>
+                                <p align="center">
+                                    ["rîndului"]
+                                </p>
+                            </td>
+                            <td width="132">
+                                <p align="center">
+                                    ["Realizat în trimestrul raportat"]
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p align="center">
+                                    ["A"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    ["B"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    1
+                                </p>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 6px;">
+                                    <strong>["Venituri – total"] </strong>
+                                </p>
+                                <p style="margin-left: 6px;">
+                                    <strong> ["(011+012+018+024+030)"]</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>010</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r010c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>
+                                        ["Contribuţiile fondatorilor şi membrilor organizaţiei necomerciale"]
+                                    </strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>011</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r011c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Mijloace cu destinație specială"]</strong>
+                                </p>
+                                <p>
+                                    <strong>["(014+015+016+017)"]</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>012</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r012c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 48px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 66px;">
+                                    ["din străinătate"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    013
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r013c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["active imobilizate"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    014
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r014c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["stocuri"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    015
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r015c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["servicii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    016
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r016c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["numerar"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    017
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r017c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Mijloace nepredestinate"]</strong>
+                                </p>
+                                <p style="margin-left: 18px;">
+                                    <strong>(020+021+022+023)</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>018</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r018c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 48px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 66px;">
+                                    ["din străinătate"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    019
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r019c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["active imobilizate"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    020
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r020c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["stocuri"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    021
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r021c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["servicii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    022
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r022c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["numerar"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    023
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r023c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Venituri din activitatea economică"](025+026+027+028+029)</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>024</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r024c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 24px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 60px;">
+                                    ["din vânzarea produselor finite"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    025
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r025c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["din vânzarea mărfurilor"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    026
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r026c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["din prestarea serviciilor"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    027
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r027c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["din arenda curentă"]
+                                </p>
+                            </td>
+                            <td align="center">
+                                028
+                            </td>
+                            <td>
+                                @dec_table1_row_r028c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["alte venituri din activitatea economică"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    029
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r029c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Alte venituri"]</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>030</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r030c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 6px;">
+                                    <strong>["Consumuri şi cheltuieli–total"] </strong>
+                                </p>
+                                <p style="margin-left: 6px;">
+                                    <strong>
+                                        (050+070+090+100+110+120)
+                                    </strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>040</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r040c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Consumuri şi cheltuieli materiale – total "]</strong>
+                                </p>
+                                <p style="margin-left: 18px;">
+                                    <strong>
+                                        (051+052+053+054+055+060+061+062+063+069)
+                                    </strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>050</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r050c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 24px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["materii prime, materiale, semifabricate cumpărate"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    051
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r051c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["piese de schimb"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    052
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r052c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["materiale de construcţie pentru reparaţie"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    053
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r053c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["ambalaje şi materiale pentru ambalat"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    054
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r054c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["combustibil – total"]
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    (056+057+058+059)
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    055
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r055c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 54px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 66px;">
+                                    ["produse petroliere"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    056
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r056c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 66px;">
+                                    ["cărbune"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    057
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r057c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 66px;">
+                                    ["gaze"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    058
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r058c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 66px;">
+                                    ["alte"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    059
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r059c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["energie electrică"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    060
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r060c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["energie termică"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    061
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r061c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["apă"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    062
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r062c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["obiecte de mică valoare şi scurtă durată"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    063
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r063c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["alte consumuri şi cheltuieli materiale"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    069
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r069c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Consumuri şi cheltuieli aferente serviciilor prestate de
+                                        terţi"] – ["total"] (071+072+073+075+076+077+
+                                        078+079+080+081+082+089)</strong>
+
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>070</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r070c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["de transport"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    071
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r071c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["de comunicaţii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    072
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r072c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["de reparaţie a mijloacelor fixe"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    073
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r073c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 48px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 66px;">
+                                    ["reparaţia curentă"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    074
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r074c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["de prelucrare a materiei prime proprii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    075
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r075c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["bancare"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    076
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r076c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["de audit"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    077
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r077c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["notariale şi juridice"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    078
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r078c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["de pompieri şi pază"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    079
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r079c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["publicitate"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    080
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r080c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["pentru pregătirea şi perfecţionarea cadrelor"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    081
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r081c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["canalizarea, evacuarea gunoiului, liftul etc."]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    082
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r082c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["alte servicii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    089
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r089c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Uzura (amortizarea) activelor pe termen lung – total"]</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>090</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r090c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["uzura mijloacelor fixe"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    091
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r091c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["amortizarea activelor nemateriale"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    092
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r092c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>["Consumuri şi cheltuieli privind retribuirea muncii"]</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>100</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r100c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong> ["Contribuţii privind asigurările sociale de stat şi medicale
+                                        obligatorii – total"]</strong>
+                                </p>
+                                <p>
+                                    <strong>["(111+112)"] </strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>110</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r110c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["Contribuţii privind asigurările sociale de stat obligatorii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    111
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r111c1;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["Contribuţii privind asigurările medicale obligatorii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    112
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r112c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    <strong>
+                                        ["Alte consumuri şi cheltuieli operaţionale – total"]
+                                    </strong>
+                                </p>
+                                <p style="margin-left: 18px;">
+                                    <strong>
+                                        (130+140+150+160+170+180+
+                                        190+200+210+220+230)
+                                    </strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    <strong>120</strong>
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r120c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 18px;">
+                                    ["inclusiv"]:
+                                </p>
+                                <p style="margin-left: 36px;">
+                                    ["plata de arendă operaţională (curentă)"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    130
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r130c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 48px;">
+                                    ["din care - plata de arendă a terenurilor"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    131
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r131c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["cheltuieli de deplasare"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    140
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r140c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 48px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 66px;">
+                                    ["cheltuieli de cazare"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    141
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r141c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 66px;">
+                                    ["diurna"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    142
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r142c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["cheltuieli de protocol"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    150
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r150c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["cheltuieli privind asigurarea obligatorie a personalului şi
+                                    patrimoniului"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    160
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r160c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["cheltuieli privind dobânzile pentru credite şi împrumuturi"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    170
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r170c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["cu nerezidenţii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    171
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r171c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["cu rezidenţii"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    172
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r172c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 102px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 114px;">
+                                    ["instituţii financiare"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    173
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r173c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 114px;">
+                                    ["întreprinderi"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    174
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r174c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["cheltuieli privind datoriile dubioase"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    180
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r180c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["amenzi, penalităţi, despăgubiri"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    190
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r190c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["valoarea de bilanţ a altor active curente ieşite"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    200
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r200c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["cheltuieli pentru donaţii şi în scopuri de binefacere şi
+                                    sponsorizare"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    210
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r210c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["impozite şi taxe incluse în cheltuieli – total"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    220
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r220c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 48px;">
+                                    ["din care"]:
+                                </p>
+                                <p style="margin-left: 60px;">
+                                    ["impozitul funciar pe terenurile cu destinaţie neagricolă"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    221
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r221c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["impozitul pe bunurile imobiliare"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    222
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r222c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["impozitul rutier"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    223
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r223c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["taxe locale"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    224
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r224c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 60px;">
+                                    ["alte impozite şi taxe"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    225
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r225c1;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 36px;">
+                                    ["alte cheltuieli"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    230
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table1_row_r230c1;
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <br>
+                <p style="margin-left: 300px;">
+                    <strong>["Informativ"]:</strong>
+                </p>
+                <table id="table2" border="1" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="595">
+                                <p style="margin-left: 6px;">
+                                    ["Numărul membrilor organizației la ultima zi al trimestrului de raportare"]
+                                </p>
+                            </td>
+                            <td width="9">
+                                <p align="center">
+                                    300
+                                </p>
+                            </td>
+                            <td width="132">
+                                @dec_table2_row_r300c1;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 6px;">
+                                    ["Numărul mediu al salariaților"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    310
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table2_row_r310c1;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="margin-left: 6px;">
+                                    ["Numărul de voluntari"]
+                                </p>
+                            </td>
+                            <td>
+                                <p align="center">
+                                    320
+                                </p>
+                            </td>
+                            <td>
+                                @dec_table2_row_r320c1;
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
