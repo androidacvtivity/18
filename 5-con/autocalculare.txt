@@ -1,0 +1,12 @@
+[dec_table1_row_r011c1]+[dec_table1_row_r012c1]+[dec_table1_row_r018c1]+[dec_table1_row_r024c1]+[dec_table1_row_r030c1]=[dec_table1_row_r010c1]msg(Error);
+[dec_table1_row_r014c1]+[dec_table1_row_r015c1]+[dec_table1_row_r016c1]+[dec_table1_row_r017c1]=[dec_table1_row_r012c1]msg(Error);
+[dec_table1_row_r020c1]+[dec_table1_row_r021c1]+[dec_table1_row_r022c1]+[dec_table1_row_r023c1]=[dec_table1_row_r018c1]msg(Error);
+[dec_table1_row_r025c1]+[dec_table1_row_r026c1]+[dec_table1_row_r027c1]+[dec_table1_row_r028c1]+[dec_table1_row_r029c1]=[dec_table1_row_r024c1]msg(Error);
+[dec_table1_row_r050c1]+[dec_table1_row_r070c1]+[dec_table1_row_r090c1]+[dec_table1_row_r100c1]+[dec_table1_row_r110c1]+[dec_table1_row_r120c1]=[dec_table1_row_r040c1]msg(Error);
+[dec_table1_row_r051c1]+[dec_table1_row_r052c1]+[dec_table1_row_r053c1]+[dec_table1_row_r054c1]+[dec_table1_row_r055c1]+[dec_table1_row_r060c1]+[dec_table1_row_r061c1]+[dec_table1_row_r062c1]+[dec_table1_row_r063c1]+[dec_table1_row_r069c1]=[dec_table1_row_r050c1]msg(Error);
+[dec_table1_row_r056c1]+[dec_table1_row_r057c1]+[dec_table1_row_r058c1]+[dec_table1_row_r059c1]=[dec_table1_row_r055c1]msg(Error);
+
+[dec_table1_row_r071c1]+[dec_table1_row_r072c1]+[dec_table1_row_r073c1]+[dec_table1_row_r075c1]+[dec_table1_row_r076c1]+[dec_table1_row_r077c1]+[dec_table1_row_r078c1]+[dec_table1_row_r079c1]+[dec_table1_row_r080c1]+[dec_table1_row_r081c1]+[dec_table1_row_r082c1]+[dec_table1_row_r089c1]=[dec_table1_row_r070c1]msg(Error);
+[dec_table1_row_r111c1]+[dec_table1_row_r112c1]=[dec_table1_row_r110c1]msg(Error);
+
+[dec_table1_row_r130c1]+[dec_table1_row_r140c1]+[dec_table1_row_r150c1]+[dec_table1_row_r160c1]+[dec_table1_row_r170c1]+[dec_table1_row_r180c1]+[dec_table1_row_r190c1]+[dec_table1_row_r200c1]+[dec_table1_row_r210c1]+[dec_table1_row_r220c1]+[dec_table1_row_r230c1]=[dec_table1_row_r120c1]msg(Error);
