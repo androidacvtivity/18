@@ -1,0 +1,3 @@
+SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid WHERE c.PRGS IN ('3','6','7','8','4');
+
+SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid
