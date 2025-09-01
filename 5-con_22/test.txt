@@ -9,3 +9,57 @@ SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier
 
 
 select vid, machine_name from taxonomy_vocabulary order by vid;
+
+
+select * from classifier_cuatm_munca3;
+
+select code,  CONCAT(code, ' - ', name) from classifier_cuatm_munca3;
+
+
+select * from classifier_cuatm_full;
+
+
+select * from classifier_vocabulary_18;
+
+
+select * from classifier_forma_de_proprietate;
+
+
+SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN forma_de_proprietate c ON c.tid = t.tid;
+
+Modifica SQL in MySQL 
+Daca code are 6 caractere de adaugat zero in fata prin concatenare - Modificarea trebuie sa fie aplicate pentru coloana unu si doi 
+
+SELECT code, CONCAT(code, ' - ', name)   FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid WHERE c.PRGS IN ('3','6','7','8','4');
+
+<?php return declarations_get_caem_cua('vocabulary_19'); ?>
+
+
+SELECT  CASE WHEN CHAR_LENGTH( code) = 6 THEN CONCAT('0', code) ELSE code END AS code, CONCAT( CASE WHEN CHAR_LENGTH(t.code) = 6 THEN CONCAT('0', t.code) ELSE t.code END,
+    ' - ',
+    t.name
+  ) AS code_name
+FROM taxonomy_term_data t
+JOIN classifier_66 c ON c.tid = t.tid
+WHERE c.PRGS IN ('3','6','7','8','4');
+
+
+SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_forma_organizatorico_juridica c ON c.tid = t.tid
+
+
+select vid, machine_name 
+from taxonomy_vocabulary 
+
+vid =  
+order by vid;
+
+SELECT code, CONCAT(code, ' - ', name)   FROM taxonomy_term_data t JOIN classifier_38 c ON c.tid = t.tid
+
+
+SELECT code, CONCAT(code, ' - ', name)   FROM taxonomy_term_data t JOIN classifier_37 c ON c.tid = t.tid
+
+
+select * from classifier_21;
+
+
+SELECT ddf_code, CONCAT(ddf_code, ' - ', name)   FROM taxonomy_term_data t JOIN classifier_21 c ON c.tid = t.tid order by ddf_code;
