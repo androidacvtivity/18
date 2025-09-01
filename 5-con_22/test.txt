@@ -1,3 +1,11 @@
 SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid WHERE c.PRGS IN ('3','6','7','8','4');
 
-SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid
+SELECTcode,  CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid
+
+
+select vid, machine_name from taxonomy_vocabulary order by vid;
+
+SELECT code, CONCAT(code, ' - ', name) FROM taxonomy_term_data t JOIN classifier_66 c ON c.tid = t.tid WHERE c.PRGS IN ('3','6','7','8','4');
+
+
+select vid, machine_name from taxonomy_vocabulary order by vid;
